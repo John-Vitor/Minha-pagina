@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"/>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+     
+     <!-- bootstrap inicio-->
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">  
+     
+<title>Joao Vitor</title>
+<style>
+       h1 { 
+            font-family: Arial;
+            font-size: 30pt;
+            color: blue;
+            text-shadow: 2px 2px 2px black;
+          }
+
+        p {
+            text-align: justify;
+            text-indent: 30px
+          }
+
+        /* formatacao de imagens com legenda*/
+
+        figure.foto-legenda {
+         position: relative;
+         border: 8px solid white;
+         box-shadow: 1px 1px 4px black;
+          }
+
+        figure.foto-legenda img {
+          width: 100%;
+          right: 100%;
+        }  
+
+        figure.foto-legenda figcaption {
+          opacity: 0;
+          position: absolute;
+          top: 0px;
+          background-color: rgba(0,0,0,.4);
+          color: white;
+          width: 100%;
+          height: 100%;
+          padding: 10px;
+          box-sizing: border-box;
+          transition: opacity 1s;
+        }
+
+        figure.foto-legenda:hover figcaption
+           {
+          opacity: 1;
+        }
+         
+         /* Menu */
+
+        nav#menu ul {
+           list-style: none;
+           text-transform: uppercase; 
+        }
+         
+        nav#menu li {
+           display: inline-block;
+           transition: background-color 1s;
+           box-sizing: border-box;
+        }
+        
+        nav#menu li:hover {
+         
+           }
+
+        nav#menu a {
+          color: #000000;
+          text-decoration: none;
+        }
+
+        nav#menu a:hover {
+          color: #ffffff;
+        }
+
+        /* interface */
+        
+        div#interface {
+          width: 9600px
+          background-color:#dddddd;
+          margin: -20px 10px 10px 10px
+          box-shadow: 0px 0px 10px rgba (0,0,0,.5);
+          padding: 10px 10px 10px 10px; 
+        }
+
+        /* body */
+        body { 
+          background-color: white;
+          color: rgba(0,0,0,1);
+        }
+        /* cabecalho*/
+        header#cabecalho {
+          border-bottom: 1px black solid;
+          height: 115px;
+          background-color: grey;
+          margin: -55px
+          
+
+             }  
+
+        header#cabecalho h1 {
+          font-family: 'Titillium Web', sans-serif;
+          font-size: 30pt;
+          color: #606060;
+          text-shadow: 1px 1px 1px rgba (0,0,0,.6)
+          padding: 0px;
+          margin: 25px 10px 10px 10px;
+          margin-bottom: 15px;
+          margin-top: 40px;
+
+                  }
+         
+        header#cabecalho h2 {
+          font-family: Arial, sans-serif;
+          color: #888888;
+          font-size: 15pt
+          padding: 0pt;
+          margin-top: 0px;
+          margin-bottom: 0px;
+        }
+        
+        /*section */
+        section#corpo {
+          display: block;
+          width: 380px;
+          float: left;
+          
+          padding-right: 15px;
+        }
+
+        aside#lateral {
+          display: block;
+          border-left: 1px solid #606060;
+          width: 1050px;
+          height: 450px;
+          float: right;
+          background-color: #dddddd;
+          padding: 10px;
+          margin-top: 55px;
+          margin-bottom: 15px: 
+          box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+          
+
+        }
+
+        aside#lateral h1 {
+          font-family: Arial;
+          font-size: 20pt
+          margin-top: 0px
+        }
+
+        aside#lateral h2 {
+          font-size: 13pt;
+          color: #ffffff
+                  }
+
+
+        footer#rodape {
+          clear: both;
+          border-top: 1px solid #606060;
+
+        }
+
+        footer#rodape h2 {
+          margin: 10px 10px 10px 675px;
+          font-size: 16pt
+
+        }
+
+        footer#rodape h3 {
+          margin: 10px 10px 10px 663px;
+          font-size: 12pt
+
+         }
+
+        footer#rodape a {
+          text-decoration: none;
+          color: #000000;
+
+        }
+
+        footer#rodape a:hover {
+          columns: grey;
+        }
+       /*Botao Bootstrap*/
+
+       .btn-custom {
+        padding: 1px 15px 3px 2px;
+        border-radius: 50px;
+       }
+        
+        .btn-icon {
+          padding: 8px;
+          background: #ffffff
+        }
+        
+        form#botao {
+          
+          margin: 10px 10px 10px 645px;
+          display: block;
+                   
+            }
+
+      </style>     	
+</head>
+
+<body>
+
+<div id="interface">
+	<header id="cabecalho">
+
+<hgroup>
+<h1 style="text-align: center">SITE DO JOÃO</h1>
+<h2 style="text-align: center"><b>O primeiro.</b></h2>
+</hgroup>
+
+ <div class="container">
+   <div class="row">
+     <div class="col-lg-12">
+
+
+     </div>
+     
+   </div>
+   
+ </div>
+
+ </header>
+
+<section id="corpo">
+
+<figure class="foto-legenda">
+  <img src="_img/img.png"> 
+  <figcaption> 
+    <h3> Esse sou eu. </h3>
+
+  </figcaption>
+
+</figure>
+
+<p style="margin-left: 25px"><b>Faça uma descoberta na imagem! </b></p>
+<br/>
+
+</section>
+
+<aside id="lateral">
+
+<h1><b>Habilidades, qualidades e hobbies </b></h1>
+
+<ul>
+<li><b><p>Aprendo rápido (este site é a prova).</p></b></li>
+<li><b><p>Hábil em trabalhar e conviver em grupo.</p></b></li>
+<li><b><p>Prazer em ajudar as pessoas que precisam.</p></b></li>
+<li><b><p>Proficiencia ao aprender programação.</p></b></li>
+<li><b><p>Dedicado a cumprir metas.</p></b></li>
+<li><b><p>Prefiro resolver o quanto antes tarefas para não fazer nada depois.</p></b></li>
+<li><b><p>Apaixonado por RPG de mesa cubo mágico!</p></b></li>
+<li><b><p>Amo gatos!</p></b></li>
+<li><b><p>Curioso sobre o universo.</p></b></li>
+
+
+</ul>
+</aside>
+</div>
+
+<nav id="menu">
+<footer id="rodape">
+  
+ 
+
+
+  <ul>
+   <h2>Me encontre nas redes sociais</h2>
+    
+    <form id="botao">
+   <li><p> <a href="https://web.facebook.com/joaovitorsouza.br" target="_blank" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">FACEBOOK</a></p></li>
+   
+
+   <li><p> <a href="https://www.linkedin.com/feed/?midToken=AQFDL-LnTYIjPA&trk=eml-email_accept_invite_digest_02-header-31-home&trkEmail=eml-email_accept_invite_digest_02-header-31-home-null-4cdymy%7Ek4v5gagn%7Eyh-null-neptune%2Ffeed" target="_blank" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">LINKEDIN</a></p></li>
+</form>
+
+    <h3>joao.pinto@al.resilia.com.br / (21) 98045-6737</h3>
+</ul>
+
+   
+</nav>
+
+</footer>
+</section>
+
+
+</body>
+</html>
